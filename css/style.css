@@ -2,6 +2,7 @@
 box-sizing: border-box;
 }
 
+
 @font-face {
   font-family: 'Bebas Neue Book';
   src: url("../fonts/BebasNeueBook.woff") format('woff');
@@ -24,8 +25,7 @@ box-sizing: border-box;
 }
 
 .header {
-min-height: 100vh;
-
+  min-height: 100vh;
 }
 
 .header-image {
@@ -68,11 +68,11 @@ color: inherit;
 }
 
 .header-phone {
-flex-shrink: 0;
-display: flex;
-text-decoration: none;
-gap: 10px;
-align-items:center;
+  flex-shrink: 0;
+  display: flex;
+  text-decoration: none;
+  gap: 10px;
+  align-items:center;
 }
 
 .header-phone-link {
