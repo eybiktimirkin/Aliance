@@ -36,7 +36,7 @@ box-sizing: border-box;
   top: 0;
   z-index: 2;
   border: 1px solid rgba(235, 235, 240, 0.2);
-  transition: background-color 0.2s height 0.2s;
+  transition: background-color 0.2s, height 0.2s;
 }
 
 .navbar-light {
@@ -75,7 +75,7 @@ box-sizing: border-box;
 .header-logo {
   display: flex;
   align-items:center;
-  padding: 25px 50px;
+  padding: 0px 50px;
   border-right: 1px solid rgba(235, 235, 240, 0.2);
   height: 100%;
 }
