@@ -277,3 +277,13 @@ color: #5C8EE5;
   width: 2.5rem;
   margin-right: 1.25rem;
 }
+
+@media (min-width: 1200px) and (max-width: 1920px) {
+
+  html {
+    font-size: 14px;
+  }
+  .header-image {
+    background-position: center;
+  }
+}
