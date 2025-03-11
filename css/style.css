@@ -362,7 +362,7 @@ color: #5C8EE5;
    height: .0625rem; 
    background-color: #fff;
    width: 100%;
-
+   transition: transform 0.2s;
   }
   .mobile-menu-line:nth-child(2) {
     width: 80%;
@@ -462,5 +462,14 @@ color: #5C8EE5;
    .mobile-info-link {
     width: 1.5rem;
     height: 1.5rem;
+   }
+   .close-menu .mobile-menu-line:nth-child(2) {
+    display: none;
+   }
+   .close-menu .mobile-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(10px);
+   }
+   .close-menu .mobile-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px);
    }
 }
