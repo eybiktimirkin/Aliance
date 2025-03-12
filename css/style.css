@@ -53,10 +53,14 @@ body {
   fill: #5C8EE6;
 }
 
+.logo {
+  display: none;
+}
+
 .header-logo-svg {
   width: 9rem;
   height: 2.75rem;
-  margin-left: -0.375rem;
+
 }
 
 .navbar-light .header-logo-path {
