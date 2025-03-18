@@ -359,7 +359,7 @@ cursor: pointer;
 
 .card {
   text-decoration: none;
-  flex-basis: 25.5%;   /* базовая ширина каждой карточки */
+  flex-basis: 33%;   /* базовая ширина каждой карточки */
   border: 1px solid #EBEBF0;
   position: relative;
   transition: border 0.2s;
@@ -402,52 +402,66 @@ cursor: pointer;
   width: 100%;   /* максимальная ширина картинки не должна выпадать за пределы родителя */
 }
 
-.section-stamps {
-  margin-top: 8.6875rem;
-}
 
-.stamps{
+.trademark-cards{
   display: flex;
   flex-wrap: wrap;   /* если карточки не помещаются, они должны переноситься */
   justify-content: center;
 }
 
-.stamp {
-  display: flex;
-  align-items:center;
+.trademark-card {
+  flex-basis: 50%;
   text-decoration: none;
   border: 1px solid #EBEBF0;
   position: relative;
   transition: border 0.2s;
+  padding: 3.125rem;
+  display: grid;
+  grid-template-columns: 11.25rem 1fr;
+  grid-template-rows: auto 2fr;
+  grid-template-areas: 
+  "logo title title"
+  "logo text text";
+  grid-column-gap: 3.125rem;
 }
 
-.stamp-content {
- padding-left: 3.125rem;
- padding-top: 3.125rem;
- padding-right: 3.125rem;
- padding-bottom: 4.4375rem;
+.trademark-card-logo {
+  width: 100%;
+  grid-area: logo;
+  fill: #828A99;
 }
 
-.stamp-image {
-  padding-left: 3.125rem;
-
-}
-
-.stamp-title {
-  font-weight: 400;
+.trademark-card-title {
+  grid-area: title;
+  margin: .4375rem;
   font-size: 1.75rem;
   line-height: 160%;
+  font-weight: 400;
   color: #292D33;
-  margin-top: 0.6875rem;
-  margin-bottom: .625rem;
-  transition: color 0.2s;
 }
 
-.stamp-text {
-  font-size: 1rem;  
+.trademark-card-text {
+  grid-area: text;
+  font-size: 1rem;
   line-height: 160%;
-  color:#828A99;
+  font-weight: 400;
+  font-style: normal;
+  color: #828A99;
+  margin-top: .625rem;
 }
+
+.trademark-card:hover {
+  border-color: #5C8EE6;
+}
+
+.trademark-card:hover .trademark-card-logo {
+  fill: #5C8EE6;
+}
+
+.trademark-card:hover .trademark-card-title {
+  color: #5C8EE6;
+}
+
 
 @media (max-width: 1700px) {
 
@@ -505,9 +519,10 @@ cursor: pointer;
   .card-image {
   width: 80%;
   }
-  .stamps{
-    flex-wrap: wrap;
+  .trademark-card {
+    grid-template-columns: auto auto;
   }
+  
 }
 @media (max-width: 992px) {
   html {
@@ -649,6 +664,9 @@ cursor: pointer;
    .close-menu .mobile-menu-line:nth-child(3) {
     transform: rotate(-45deg) translateY(-10px);
    }
+   .trademark-cards {
+    flex-direction: column;
+   }
 }
 @media (max-width: 768px) {
 
@@ -667,9 +685,6 @@ cursor: pointer;
 .card-image {
   width: 60%;
   }
-.stamps{
-  flex-basis: 100%;
-}
 }
 @media (max-width: 578px) {
 
@@ -681,5 +696,10 @@ cursor: pointer;
   }
   .header-content {
     padding-top: 2rem;
+  }
+  .trademark-cards {
+    grid-template-areas: 
+    "logo title"
+    "text text";
   }
 }
