@@ -227,7 +227,7 @@ body {
 
 .header-features-item {
   padding: 1.75rem 3.125rem;
-  height: auto;
+  height: 100%;
   width: 18.5rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -399,6 +399,54 @@ cursor: pointer;
   right: 0;
   z-index: 0;
   width: 90%;   /* максимальная ширина картинки не должна выпадать за пределы родителя */
+}
+
+.section-stamps {
+  margin-top: 23.6875rem;
+}
+
+.stamp {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  text-decoration: none;
+  border: 1px solid #EBEBF0;
+  position: relative;
+  transition: border 0.2s;
+}
+
+.stamps{
+  display: flex;
+  margin-left: 15rem;
+  width: 90rem;
+}
+
+.stamp-content {
+ padding-left: 3.125rem;
+ padding-top: 3.125rem;
+ padding-right: 3.125rem;
+ padding-bottom: 4.4375rem;
+}
+
+.stamp-image {
+  padding-left: 3.125rem;
+
+}
+
+.stamp-title {
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  color: #292D33;
+  margin-top: 0;
+  margin-bottom: .625rem;
+  transition: color 0.2s;
+}
+
+.stamp-text {
+  font-size: 1rem;  
+  line-height: 160%;
+  color:#828A99;
 }
 
 @media (max-width: 1700px) {
