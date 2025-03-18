@@ -256,15 +256,15 @@ body {
 }
 
 .section {
-  margin-top: 9.375rem;
-  margin-bottom: 9.375rem;
+  margin-top: 8.375rem;
+  margin-bottom: 7.375rem;
 }
 
 .section-title {
   font-family: 'Bebas Neue Book';
   color: #292D33;
   font-size: 3.75rem;
-  line-height: 120%;
+  line-height: 60%;
 }
 
 .steps {
@@ -275,7 +275,7 @@ body {
 }
 
 .steps-item {
-  max-width: 20.625rem;
+  max-width: 18.5625rem;
 }
 
 .steps-num {
@@ -354,11 +354,12 @@ cursor: pointer;
 .cards {
   display: flex;
   flex-wrap: wrap;   /* если карточки не помещаются, они должны переноситься */
+  justify-content: center;
 }
 
 .card {
   text-decoration: none;
-  flex-basis: 33%;   /* базовая ширина каждой карточки */
+  flex-basis: 25.5%;   /* базовая ширина каждой карточки */
   border: 1px solid #EBEBF0;
   position: relative;
   transition: border 0.2s;
@@ -373,7 +374,7 @@ cursor: pointer;
 }
 
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 3.5rem 4.125rem;
 }
 
 .card-title {
@@ -390,7 +391,7 @@ cursor: pointer;
   font-size: 1rem;  
   line-height: 160%;
   color:#828A99;
-  margin-bottom: 24.625rem;
+  margin-bottom: 20.625rem;
 }
 
 .card-image {
@@ -398,11 +399,11 @@ cursor: pointer;
   bottom: 0;
   right: 0;
   z-index: 0;
-  width: 90%;   /* максимальная ширина картинки не должна выпадать за пределы родителя */
+  width: 100%;   /* максимальная ширина картинки не должна выпадать за пределы родителя */
 }
 
 .section-stamps {
-  margin-top: 23.6875rem;
+  margin-top: 8.6875rem;
 }
 
 .stamp {
@@ -438,7 +439,7 @@ cursor: pointer;
   font-size: 1.75rem;
   line-height: 160%;
   color: #292D33;
-  margin-top: 0;
+  margin-top: 0.6875rem;
   margin-bottom: .625rem;
   transition: color 0.2s;
 }
@@ -653,7 +654,7 @@ cursor: pointer;
   font-size: 4rem;
 }
 .header-content {
-  padding-top: 3rem;
+  padding-top: 7.375rem;
 }
 .card {
   flex-basis: 100%;
