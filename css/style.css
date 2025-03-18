@@ -406,20 +406,19 @@ cursor: pointer;
   margin-top: 8.6875rem;
 }
 
+.stamps{
+  display: flex;
+  flex-wrap: wrap;   /* если карточки не помещаются, они должны переноситься */
+  justify-content: center;
+}
+
 .stamp {
   display: flex;
   align-items:center;
-  justify-content: center;
   text-decoration: none;
   border: 1px solid #EBEBF0;
   position: relative;
   transition: border 0.2s;
-}
-
-.stamps{
-  display: flex;
-  margin-left: 15rem;
-  width: 90rem;
 }
 
 .stamp-content {
@@ -502,6 +501,12 @@ cursor: pointer;
   }
   .card {
     flex-basis: 50%;
+  }
+  .card-image {
+  width: 80%;
+  }
+  .stamps{
+    flex-wrap: wrap;
   }
 }
 @media (max-width: 992px) {
@@ -659,6 +664,12 @@ cursor: pointer;
 .card {
   flex-basis: 100%;
 }
+.card-image {
+  width: 60%;
+  }
+.stamps{
+  flex-basis: 100%;
+}
 }
 @media (max-width: 578px) {
 
@@ -671,3 +682,4 @@ cursor: pointer;
   .header-content {
     padding-top: 2rem;
   }
+}
