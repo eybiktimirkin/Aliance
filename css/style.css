@@ -312,7 +312,7 @@ margin-top: .625rem;
 margin-bottom: 1.25rem;
 }
 
-.steps-link {
+.button-link {
 display: flex;
 align-items: center;
 text-decoration: none;
@@ -322,7 +322,7 @@ line-height: 160%;
 color: #5C8EE5;
 }
 
-.steps-link::before {
+.button-link::before {
   content: "";
   height: .0625rem;
   background: #5C8EE5;
@@ -331,7 +331,7 @@ color: #5C8EE5;
   transition: width 0.2s;
 }
 
-.steps-link:hover::before {
+.button-link:hover::before {
   width: 60px;
 }
 
@@ -462,6 +462,85 @@ cursor: pointer;
   color: #5C8EE6;
 }
 
+.founder {
+  position: relative;
+  min-height: 41.25rem;
+}
+
+.founder-photo {
+  position: absolute;
+  left: 0;
+  width: 40%;
+  top: 0;
+  min-height: 100%;
+  object-fit: cover; /* картинка будет обрезаться и всегда будет в адекватном размере*/
+}
+
+.founder-content {
+  max-width: 45rem;
+}
+
+.founder-content-wrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.founder-text {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #828A99;
+}
+
+.clients-wrapper {
+  display: flex;
+  gap: 3.125rem;
+}
+
+.clients-content {
+  flex-basis: 50%;
+}
+
+.clients-list {
+  list-style: none;
+  padding: 0;
+  columns: 2 auto;
+}
+
+.clients-list-item {
+  display: flex;
+  align-items: center;
+  gap: 1.25rem;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  color: #292D33;
+}
+
+.clients-logo-list {
+  flex-shrink: 10;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.clients-logo-item {
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-basis: 33%;
+  border: 1px solid #EBEBF0;
+  padding: 1rem;
+}
+
+.clients-logo {
+  max-width: 100%;
+  filter: grayscale(100%); 
+  transition: filter 0.2s;
+}
+
+.clients-logo:hover{
+  filter: none; 
+}
 
 @media (max-width: 1700px) {
 
@@ -521,6 +600,12 @@ cursor: pointer;
   }
   .trademark-card {
     grid-template-columns: auto auto;
+  }
+  .founder-content {
+    max-width: 35rem;
+  }
+  .clients-content {
+    flex-basis: 60%;
   }
   
 }
@@ -667,6 +752,9 @@ cursor: pointer;
    .trademark-cards {
     flex-direction: column;
    }
+   .clients-wrapper {
+    flex-direction: column;
+   }
 }
 @media (max-width: 768px) {
 
@@ -685,6 +773,11 @@ cursor: pointer;
 .card-image {
   width: 60%;
   }
+.founder-photo {
+  position: relative;
+  width: 100%;
+  margin-bottom: 3.125rem;
+}
 }
 @media (max-width: 578px) {
 
@@ -701,5 +794,11 @@ cursor: pointer;
     grid-template-areas: 
     "logo title"
     "text text";
+  }
+  .clients-list{
+    columns: 1;
+  }
+  .clients-logo-item {
+    flex-basis: 50%;
   }
 }
