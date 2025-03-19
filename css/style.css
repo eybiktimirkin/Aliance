@@ -335,21 +335,26 @@ color: #5C8EE5;
   width: 60px;
 }
 
-.steps-buttons {
-display: none;
-height: 40px;
-justify-content: flex-end;
+.primary-buttons-wrapper {
+  display: flex;
+  height: 3.75rem;
+  justify-content: flex-end;
 }
 
-.steps-button-prev, .steps-button-next{
+.primary-button-prev, 
+.primary-button-next{
 background-color: #5C8EE6;
 height: 100%;
-width: 60px;
+width: 80px;
 display: flex;
 align-items: center;
 justify-content: center;
 cursor: pointer;
 }
+
+.steps-buttons {
+  display: none;
+  }
 
 .cards {
   display: flex;
@@ -469,9 +474,9 @@ cursor: pointer;
 
 .founder-photo {
   position: absolute;
-  left: 0;
-  width: 40%;
-  top: 0;
+  left: -6px;
+  width: 44%;
+  top: 23px;
   min-height: 100%;
   object-fit: cover; /* картинка будет обрезаться и всегда будет в адекватном размере*/
 }
@@ -542,6 +547,61 @@ cursor: pointer;
   filter: none; 
 }
 
+.blog-card {
+  display: flex;
+  position: relative;
+  min-height: 25rem;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 3.125rem;
+}
+
+.blog-card::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(41, 45, 51, 0.6);
+  z-index: -1;
+}
+
+.blog-card-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.blog-card-title {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.75rem;
+  line-height: 160%;
+  margin-bottom: .625rem;
+  margin-top: 0;
+}
+
+.blog-card-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 160%;
+  margin: 0;
+}
+
+.blog-slider-footer {
+  display: flex;
+  align-items:center;
+  margin-top: 1.875rem;
+  justify-content: space-between;
+}
+
 @media (max-width: 1700px) {
 
   html {
@@ -575,6 +635,14 @@ cursor: pointer;
 @media (max-width: 1200px) {
   .container {
     max-width: 70rem;
+  }
+  .primary-buttons-wrapper {
+    height: 2.5rem;
+  }
+
+  .primary-button-prev, 
+  .primary-button-next{
+  width: 60px;
   }
   .steps-buttons {
     display: flex;
