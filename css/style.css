@@ -1245,4 +1245,7 @@ cursor: pointer;
   .notify-text{
     max-width: 20.0625rem;
   }
+  .modal-dialog {
+    max-width: 21.5625rem;
+  }
 }
