@@ -11,7 +11,7 @@ $formData = array (
   "Телефон: " => $user_phone
 );
 
-foreach($formData as $key => $value) {
+forEach($formData as $key => $value) {
   $text .= $key . "<b>" . urlencode($value) . "</b>" . "%0A";
 }
 

@@ -27,7 +27,7 @@
                 <input
                   id="user-phone"
                   type="text"
-                  class="input"
+                  class="input phone-mask"
                   name="userphone"
                   placeholder=" "
                   maxlength="30"
@@ -200,13 +200,14 @@
           ответит на все интересующие вопросы и поможем даже в самых сложных
           случаях!
         </p>
-        <form action="#" class="modal-form">
+        <form action="handler.php" method="POST" class="modal-form">
           <div class="input-group-wrapper input-group-vertical">
             <div class="input-group modal-input-group">
               <input
                 id="modal-user-name"
                 type="text"
                 class="input modal-input"
+                name="username"
                 placeholder=" "
               />
               <label
@@ -220,7 +221,8 @@
               <input
                 id="modal-user-phone"
                 type="text"
-                class="input modal-input"
+                class="input modal-input phone-mask"
+                name="userphone"
                 placeholder=" "
               />
               <label
@@ -251,6 +253,7 @@
       </div>
     </div>
     <script src="js/swiper-bundle.min"></script>
+    <script src="js/just-validate.production.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
