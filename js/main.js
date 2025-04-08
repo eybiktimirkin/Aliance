@@ -10,26 +10,27 @@ const lightModeOn = (event) => {
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-}
+};
 
 const changeNavHeight = (height) => {
   navbar.style.height = height;
-}
+};
 
-const openMenu = (event) => { // функция открытия
+const openMenu = (event) => {
+  // функция открытия
   menu.classList.add("is-open"); //класс из оупен
   mMenuToggle.classList.add("close-menu");
-  document.body.style.overflow="hidden" //запрет прокрутки 
+  document.body.style.overflow = "hidden"; //запрет прокрутки
   lightModeOn();
 };
-const closeMenu = (event) => { 
-  menu.classList.remove("is-open"); 
+const closeMenu = (event) => {
+  menu.classList.remove("is-open");
   mMenuToggle.classList.remove("close-menu");
-  document.body.style.overflow="";
+  document.body.style.overflow = "";
   lightModeOff();
-}
+};
 
-window.addEventListener('scroll', ( )=> {
+window.addEventListener("scroll", () => {
   this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
   if (isFront) {
     this.scrollY > 1 ? lightModeOn() : lightModeOff();
@@ -41,13 +42,13 @@ mMenuToggle.addEventListener("click", (event) => {
   menu.classList.contains("is-open") ? closeMenu() : openMenu();
 });
 
-const stepsSwiper = new Swiper('.steps-slider', {
+const stepsSwiper = new Swiper(".steps-slider", {
   speed: 400,
   autoHeight: true,
   slidesPerView: 1,
   navigation: {
-    nextEl: '.steps-button-next',
-    prevEl: '.steps-button-prev'
+    nextEl: ".steps-button-next",
+    prevEl: ".steps-button-prev",
   },
   breakpoints: {
     // when window width is >= 320px
@@ -65,16 +66,16 @@ const stepsSwiper = new Swiper('.steps-slider', {
     1200: {
       slidesPerView: 4,
     },
-  }
-})
+  },
+});
 
-const swiper = new Swiper('.features-slider', {
+const swiper = new Swiper(".features-slider", {
   speed: 400,
   autoHeight: true,
   slidesPerView: 1,
   navigation: {
-    nextEl: '.slider-button-next',
-    prevEl: '.slider-button-prev'
+    nextEl: ".slider-button-next",
+    prevEl: ".slider-button-prev",
   },
   breakpoints: {
     // when window width is >= 320px
@@ -92,16 +93,16 @@ const swiper = new Swiper('.features-slider', {
     1200: {
       slidesPerView: 5,
     },
-  }
+  },
 });
 
-const stepsBlog = new Swiper('.blog-slider', {
+const stepsBlog = new Swiper(".blog-slider", {
   speed: 400,
   slidesPerView: 2,
   spaceBetween: 30,
   navigation: {
-    nextEl: '.blog-button-next',
-    prevEl: '.blog-button-prev'
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
   },
   breakpoints: {
     // when window width is >= 320px
@@ -112,70 +113,88 @@ const stepsBlog = new Swiper('.blog-slider', {
     768: {
       slidesPerView: 2,
     },
-  }
+  },
 });
 
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
+let currentModal; //текущее модальное окно
+let modalDialog; //белое диалоговое окно
+let alertModal = document.querySelector("#alert-modal"); //окно с предупреждением
 
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal" ||
-    event.target.parentNode.dataset.toggle == "modal" ||
-    (!event.composedPath().includes(modalDialog) && 
-      modal.classList.contains("is-open"))
-  ) {
+const modalButtons = document.querySelectorAll("[data-toggle=modal]"); //все кнопки переключатели модальных окон
+modalButtons.forEach((button) => {
+  button.addEventListener("click", (event) => {
     event.preventDefault();
-    modal.classList.toggle("is-open");
-  }
+    currentModal = document.querySelector(button.dataset.target);
+    /* открыли текущее окно */
+    currentModal.classList.toggle("is-open");
+    /* назначаем диалоговое окно */
+    modalDialog = currentModal.querySelector(".modal-dialog");
+    /* отслеживаем событие клика */
+    currentModal.addEventListener("click", (event) => {
+      if (!event.composedPath().includes(modalDialog)) {
+        currentModal.classList.remove("is-open");
+      }
+    });
+  });
 });
-document.addEventListener ("keyup", (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.toggle("is-open");
+/* ловим событие нажатия на кнопку */
+document.addEventListener("keyup", (event) => {
+  /* проверяем что это эскейп, при учете открытого окна */
+  if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
+    currentModal.classList.toggle("is-open");
   }
 });
 
 const forms = document.querySelectorAll("form");
-forms.forEach ((form) =>{
+forms.forEach((form) => {
   const validation = new JustValidate(form, {
     errorFieldCssClass: "is-invalid",
   });
   validation
-  .addField("[name=username]", [
-    {
-      rule: "required",
-      errorMessage: "Укажите имя"
-    },
-    {
-      rule: "maxLength",
-      value: 50,
-      errorMessage: "Максимально 50 символов"
-    },
-  ])
-  .addField("[name=userphone]", [
-    {
-      rule: "required",
-      errorMessage: "Укажите телефон",
-    },
-  ])
-  .onSuccess((event) => {
-    const thisForm = event.target;
-    const formData = new formData(thisForm);
-    const ajaxSend = (formData) => {
-      fetch(thisForm.getAttribute("action"), {
-        method: thisForm.getAttribute("method"),
-        body: formData,
-      }).then((response) => {
-        if (response.ok) {
-          thisForm.reset();
-          alert ("Форма отправлена!");
-        } else {
-          alert("Ошибка. Текст ошибки: ".response.statusText);
-        }
-      });
-    };
-    ajaxSend (formData);
-  });
+    .addField("[name=username]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите имя",
+      },
+      {
+        rule: "maxLength",
+        value: 50,
+        errorMessage: "Максимально 50 символов",
+      },
+    ])
+    .addField("[name=userphone]", [
+      {
+        rule: "required",
+        errorMessage: "Укажите телефон",
+      },
+    ])
+    .onSuccess((event) => {
+      const thisForm = event.target;
+      const formData = new FormData(thisForm);
+      const ajaxSend = (formData) => {
+        fetch(thisForm.getAttribute("action"), {
+          method: thisForm.getAttribute("method"),
+          body: formData,
+        }).then((response) => {
+          if (response.ok) {
+            thisForm.reset();
+            currentModal.classList.remove("is-open");
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            /* отслеживаем событие клика */
+            currentModal.addEventListener("click", (event) => {
+              if (!event.composedPath().includes(modalDialog)) {
+                currentModal.classList.remove("is-open");
+              }
+            });
+          } else {
+            alert("Ошибка. Текст ошибки: ".response.statusText);
+          }
+        });
+      };
+      ajaxSend(formData);
+    });
 });
 
 /* Создаем префикс +7, даже если вводят 8 или 9 */
