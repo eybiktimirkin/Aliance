@@ -116,6 +116,25 @@ const stepsBlog = new Swiper(".blog-slider", {
   },
 });
 
+const researchSwiper = new Swiper(".research-slider", {
+  speed: 400,
+  slidesPerView: 2,
+  loop: true,
+  spaceBetween: 30,
+  navigation: {
+    nextEl: ".research-button-next",
+    prevEl: ".research-button-prev",
+  },
+  breakpoints: {
+    770: {
+      slidesPerView: 2,
+    },
+    1: {
+      slidesPerView: 1,
+    },
+  },
+});
+
 let currentModal; //текущее модальное окно
 let modalDialog; //белое диалоговое окно
 let alertModal = document.querySelector("#alert-modal"); //окно с предупреждением
