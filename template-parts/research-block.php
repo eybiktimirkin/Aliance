@@ -15,7 +15,7 @@
             <img
               src="img/blog/blog-photo.jpg"
               alt=""
-              class="slider-card-image"
+              class="research-card-image"
             />
           </div>
           <div class="swiper-slide research-slider-card">
@@ -25,7 +25,7 @@
             <img
               src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg"
               alt=""
-              class="slider-card-image"
+              class="research-card-image"
             />
           </div>
           <div class="swiper-slide research-slider-card">
@@ -35,7 +35,7 @@
             <img
               src="img/blog/blog-photo.jpg"
               alt=""
-              class="slider-card-image"
+              class="research-card-image"
             />
           </div>
         </div>
