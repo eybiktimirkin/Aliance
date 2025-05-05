@@ -1470,6 +1470,26 @@ cursor: pointer;
   margin-right: 1.25rem;
 }
 
+/* --------- policy---------- */
+
+
+.section-policy {
+  margin-top: 1.25rem;
+}
+
+.policy-content {
+  padding-top: 6.25rem;
+}
+
+.policy-text {
+  margin-top: 0;
+  color: #292D33;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25.60px;
+  width: 90rem;
+}
+
 @media (max-width: 1700px) {
 
   html {
