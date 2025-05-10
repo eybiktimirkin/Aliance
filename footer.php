@@ -28,9 +28,7 @@
             Отправить заявку
           </button>
           <div class="notify">
-            <svg width="14" height="14" class="notify-icon">
-              <use href="img/sprite.svg#shield"></use>
-            </svg>
+            <img src="img/icons/shield.jpg" alt="shield" class="notify-icon">
             <p class="notify-text">
               Обращаясь к нам вы получаете не только профессиональную
               работу, но и абсолютную конфиденциальность информации!
@@ -51,9 +49,7 @@
       </svg>
       <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
       <div class="footer-info">
-        <svg class="phone-icon" width="24" height="24">
-          <use href="img/sprite.svg#mark"></use>
-        </svg>
+        <img src="img/icons/mark.jpg" width="24" height="24" alt="mark" class="phone-icon">
         <address class="footer-info-address">
           г. Москва, Холодильный пер. 4к1с8
         </address>
@@ -70,14 +66,10 @@
       <!-- /.footer-info -->
       <div class="footer-social">
         <a href="#" class="footer-social-link">
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="img/sprite.svg#vk"></use>
-          </svg>
+          <img src="img/icons/vk.jpg" alt="vk" class="footer-social-icon">
         </a>
         <a href="#" class="footer-social-link">
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="img/sprite.svg#inst"></use>
-          </svg>
+          <img src="img/icons/inst.jpg" alt="inst" class="footer-social-icon">
         </a>
       </div>
     </div>
@@ -151,9 +143,7 @@
       <!-- /.footer-legal -->
       <div class="footer-author">
         <span class="made-in">Сделано в</span>
-        <svg width="52" height="11">
-          <use href="img/sprite.svg#ruso"></use>
-        </svg>
+        <img src="img/icons/ruso.jpg" alt="ruso">
       </div>
       <!-- /.footer-author -->
     </div>

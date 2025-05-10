@@ -34,39 +34,27 @@
         </p>
         <ul class="production-list">
           <li class="production-list-item">
-            <svg width="24" height="24" class="icon production-list-icon">
-              <use href="./img/sprite.svg#car"></use>
-            </svg>
+            <img src="./img/icons/car.jpg" alt="car" class="icon production-list-icon">
             Автомобильная химия
           </li>
           <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#home"></use>
-            </svg>
+            <img src="./img/icons/home.jpg" alt="home" class="icon production-list-icon">
             Бытовая химия
           </li>
           <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#dis"></use>
-            </svg>
+            <img src="./img/icons/dis.jpg" alt="dis" class="icon production-list-icon">
             Дезинфицирующие средства
           </li>
           <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#aerozol"></use>
-            </svg>
+            <img src="./img/icons/aerozol.jpg" alt="aerozol" class="icon production-list-icon">
             Пищевые аэрозоли
           </li>
           <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#cosmetic"></use>
-            </svg>
+            <img src="./img/icons/cosmetic.jpg" alt="cosmetic" class="icon production-list-icon">
             Косметическая продукция
           </li>
           <li class="production-list-item">
-            <svg width="24" height="24" class="icon client-list-icon">
-              <use href="./img/sprite.svg#brush"></use>
-            </svg>
+            <img src="./img/icons/brush.jpg" alt="brush" class="icon production-list-icon">
             Краски аэрозольные
           </li>
         </ul>

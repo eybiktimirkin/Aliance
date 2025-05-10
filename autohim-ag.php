@@ -44,27 +44,19 @@ include_once('header-page.php'); ?>
       </p>
       <ul class="avtohim-prod-list">
         <li class="avtohim-prod-item">
-          <svg width="24" height="24" class="icon avtohim-prod-list-icon">
-            <use href="./img/sprite.svg#him"></use>
-          </svg>
+          <img src="./img/icons/him.jpg" alt="him" class="icon avtohim-prod-list-icon">
           Полное описание товаров
         </li>
         <li class="avtohim-prod-item">
-          <svg width="24" height="24" class="icon avtohim-prod-list-icon">
-            <use href="./img/sprite.svg#car"></use>
-          </svg>
+          <img src="./img/icons/car.jpg" alt="car" class="icon avtohim-prod-list-icon">
           Актуальные цены
         </li>
         <li class="avtohim-prod-item">
-          <svg width="24" height="24" class="icon avtohim-prod-list-icon">
-            <use href="./img/sprite.svg#brush"></use>
-          </svg>
+          <img src="./img/icons/brush.jpg" alt="brush" class="icon avtohim-prod-list-icon">
           Лаки и краски
         </li>
         <li class="avtohim-prod-item">
-          <svg width="24" height="24" class="icon avtohim-prod-list-icon">
-            <use href="./img/sprite.svg#him"></use>
-          </svg>
+          <img src="./img/icons/him.jpg" alt="him" class="icon avtohim-prod-list-icon">
           Химические производства
         </li>
       </ul>

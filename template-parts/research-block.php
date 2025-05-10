@@ -43,9 +43,7 @@
           <div class="research-buttons primary-buttons-wrapper">
             <!-- кнопки переключения -->
             <div class="research-button-prev primary-button-prev">
-              <svg width="36" height="24">
-                <use href="img/sprite.svg#arrow-prev"></use>
-              </svg>
+              <img src="img/icons/arrow-left.jpg" alt="arrow-left">
             </div>
             <div class="research-button-next primary-button-next">
               <svg width="36" height="24">

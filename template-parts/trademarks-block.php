@@ -8,9 +8,7 @@
     ?>
     <div class="trademark-cards">
       <a href="./autohim-ag.php" class="trademark-card">
-        <svg class="trademark-card-logo">
-          <use href="img/sprite.svg#AGTECH"></use>
-        </svg>
+        <img src="./img/icons/icon-AGTECH.jpg" alt="agtech" class="trademark-card-logo"/>
         <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
         <p class="trademark-card-text">
           Для современного мира разбавленное изрядной долей эмпатии,
@@ -19,9 +17,7 @@
         </p>
       </a>
       <div class="trademark-card">
-        <svg class="trademark-card-logo">
-          <use href="img/sprite.svg#AP"></use>
-        </svg>
+        <img src="./img/icons/icon-AP.jpg" alt="agtech" class="trademark-card-logo"/>
         <h3 class="trademark-card-title">Автохимия AP</h3>
         <p class="trademark-card-text">
           Для современного мира разбавленное изрядной долей эмпатии,
