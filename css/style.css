@@ -1345,6 +1345,8 @@ cursor: pointer;
 }
 
 .avtohim-prod-item {
+  display: flex;
+  align-items: center;
   margin-bottom: 1.25rem;
   gap: 1.25rem;
 }
