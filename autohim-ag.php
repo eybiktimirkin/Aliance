@@ -33,7 +33,7 @@ include_once('header-page.php'); ?>
 </section>
 <section class="section section-catalog">
   <div class="bg-grey catalog-wrapper">
-    <img src="./img/avtohim/book.jpg" alt="book" class="catalog-image" />
+    <img src="./img/avtohim/book.png" alt="book" class="catalog-image" />
     <div class="catalog-form container">
       <div class="seporator"></div>
       <h2 class="section-title avtohim-prod-title">Генеральный дистрибьютор премиальной

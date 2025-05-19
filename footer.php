@@ -47,7 +47,7 @@
       <svg class="header-logo-svg footer-logo">
         <use href="img/sprite.svg#logo"></use>
       </svg>
-      <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
+      <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
       <div class="footer-info">
         <img src="img/icons/mark.jpg" width="24" height="24" alt="mark" class="phone-icon">
         <address class="footer-info-address">
@@ -156,9 +156,7 @@
   <div class="modal-dialog">
     <h2 class="modal-title">есть вопросы?</h2>
     <a href="" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
-      <svg width="24" height="24">
-        <use class="close-icon" href="img/sprite.svg#close"></use>
-      </svg>
+      <img src="img/icons/close-icon.jpg" width="24" height="24" alt="close" class="close-icon">
     </a>
     <p class="modal-text">
       Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
@@ -185,9 +183,7 @@
           Отправить заявку
         </button>
         <div class="notify">
-          <svg width="14" height="14" class="notify-icon">
-            <use href="img/sprite.svg#shield"></use>
-          </svg>
+          <img src="./img/icons/shield.jpg" width="14" height="14" alt="shield" class="notify-icon">
           <p class="notify-text">
             Обращаясь к нам вы получаете не только профессиональную работу,
             но и абсолютную конфиденциальность информации!
@@ -202,9 +198,7 @@
   <div class="modal-dialog">
     <h2 class="modal-title">спасибо за заявку!</h2>
     <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
-      <svg width="24" height="24">
-        <use class="close-icon" href="img/sprite.svg#close"></use>
-      </svg>
+      <img src="img/icons/close-icon.jpg" width="24" height="24" alt="close" class="close-icon">
     </a>
     <p class="modal-text">
       Наш менеджер свяжется с Вами в ближайшее время
