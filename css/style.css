@@ -250,7 +250,7 @@ body {
 .header-features-item {
   padding: 28px 50px;
   height: 100%;
-  width: 296px;
+  width: 17.875rem;
   border: .0625rem solid rgba(235, 235, 240, 0.2);
 }
 
@@ -293,8 +293,9 @@ body {
 .section-title {
   font-family: 'Bebas Neue Book';
   color: #292D33;
-  font-size: 60px;
+  font-size: 3.75rem;
   line-height: 100%;
+  margin-bottom: 0;
 }
 
 .steps {
@@ -1188,17 +1189,35 @@ cursor: pointer;
   margin-bottom: 13px;
 }
 
+.research-slider {
+  display: flex;
+  width: 100%;
+}
+
 .research-slider-footer {
   display: flex;
   align-items: center;
   justify-content: end;
   padding-top: 6px;
 }
+
+.research-slider-cards {
+  list-style: none;
+  padding: 0;
+  gap: 1.875rem;
+}
+
 .research-slider-card {
+  min-height: 41.125rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
-  height: auto;
+  position: relative;
+  font-family: 'Noto Sans';
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  gap: 3.125rem;
+  max-width: 33.0625rem;
 }
 
 .research-text {
@@ -1207,6 +1226,7 @@ cursor: pointer;
   font-weight: 400;
   line-height: 160%;
   max-width: 635px;
+  text-align: left;
 }
 
 .research-slider-buttons {
@@ -1216,6 +1236,7 @@ cursor: pointer;
 
 .research-card-image {
   width: 100%;
+  object-fit: cover;
 }
 
 
@@ -1257,7 +1278,7 @@ cursor: pointer;
 /* --------- avtohim-ag---------- */
 
 .autohim-ag-section  {
-  margin-top: 100px;
+  margin-top: 5.5625rem;
   padding-bottom: 0;
 }
 
@@ -1275,6 +1296,7 @@ cursor: pointer;
 
 .autohim-ag-content {
   max-width: 720px;
+  margin-top: 1.2rem;
 }
 
 .autohim-ag-text {
@@ -1286,14 +1308,13 @@ cursor: pointer;
 
 .catalog-wrapper {
   position: relative;
-  padding-top: 100px;
-  margin-top: 150px;
-  padding-bottom: 100px;
+  padding-top: 6.25rem;
+  padding-bottom: 6.25rem;
 }
 
 .catalog-image {
   position:absolute;
-  bottom: 0;
+  bottom: 0.15rem;
   right: 0;
   max-width: 960px;
   width: 50%;
@@ -1303,12 +1324,13 @@ cursor: pointer;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  max-width: 650px;
-  margin-left: 200px;
+  max-width: 40.625rem;
+  margin-left: 15rem;
 }
 
 .catalog-button {
-  width: 50%;
+  margin-top: 1.5rem;
+  width: 44%;
 }
 
 /* --------- avtohim-prod---------- */
@@ -1334,7 +1356,7 @@ cursor: pointer;
   columns: 2;
   list-style: none;
   padding-left: 0;
-  gap: 20px;
+  gap: 4.375rem;
   color: rgb(41, 45, 51);
   font-family: 'Noto Sans Regular';
   font-size: 1rem;
@@ -1350,7 +1372,7 @@ cursor: pointer;
 }
 
 .avtohim-prod-title {
-  margin-bottom: 20px;
+  margin-bottom: .5rem;
 }
 
 .avtohim-prod-item {
@@ -1690,7 +1712,11 @@ cursor: pointer;
 
 .section-not-found {
   margin-bottom: 9.9375rem;
+}
 
+.section-trademark {
+  margin-top: 5.1875rem;
+  margin-bottom: 118px;
 }
 
 @media (max-width: 106.25rem) {

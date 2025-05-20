@@ -116,11 +116,12 @@ const stepsBlog = new Swiper(".blog-slider", {
   },
 });
 
-const researchSwiper = new Swiper(".research-slider", {
+const researchSwiper = new Swiper('.research-slider', {
   speed: 400,
-  slidesPerView: 2,
-  loop: true,
-  spaceBetween: 30,
+  loop: false,
+  centeredSlides: true,
+  initialSlide: 2,
+  slidesPerView: 1,
   navigation: {
     nextEl: ".research-button-next",
     prevEl: ".research-button-prev",
