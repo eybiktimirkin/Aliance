@@ -14,13 +14,13 @@
   <div class="mobile-menu">
     <ul class="mobile-menu-nav">
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link"> О компании </a>
+        <a href="./about.php" class="mobile-menu-link"> О компании </a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link"> Контрактное производство </a>
+        <a href="./contracts.php" class="mobile-menu-link"> Контрактное производство </a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Автомобильная химия</a>
+            <a class="mobile-submenu-link" href="./avtohim.php">Автомобильная химия</a>
           </li>
           <li class="mobile-submenu-item">
             <a class="mobile-submenu-link" href="#">Бытовая химия</a>
@@ -40,20 +40,18 @@
         </ul>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link"> Собственные торговые марки </a>
+        <a href="./trademarks.php" class="mobile-menu-link"> Собственные торговые марки </a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link"> Новости </a>
+        <a href="./404.php" class="mobile-menu-link"> Новости </a>
       </li>
       <li class="mobile-menu-nav-item">
-        <a href="#" class="mobile-menu-link"> Контакты </a>
+        <a href="./contacts.php" class="mobile-menu-link"> Контакты </a>
       </li>
     </ul>
     <a href="tel:+74996861014" class="mobile-phone">+7 (499) 686-10-14</a>
     <div class="mobile-info">
-      <svg class="phone-icon" width="24" height="24">
-        <use href="img/sprite.svg#mark"></use>
-      </svg>
+      <img src="img/icons/mark.jpg" width="24" height="24" alt="mark" class="phone-icon">
       <address class="mobile-info-address">
         г. Москва, Холодильный пер. 4к1с8
       </address>
@@ -68,8 +66,11 @@
       </a>
     </div>
     <div class="mobile-info-link">
-      <a href="img/sprite.svg#vk" class="mobile-link"></a>
-      <a href="img/sprite.svg#inst" class="mobile-link"></a>
+      <a href="#" class="footer-social-link">
+        <img src="img/icons/vk.jpg" alt="vk" class="footer-social-icon">
+      </a>
+      <a href="#" class="footer-social-link">
+        <img src="img/icons/inst.jpg" alt="inst" class="footer-social-icon">
     </div>
     <!-- /.mobile-info -->
   </div>

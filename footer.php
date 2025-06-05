@@ -1,50 +1,54 @@
 <section class="cta">
-  <div class="bg-grey section-cta">
-    <img src="./img/cta.png" alt="cta" class="cta-image" />
-    <div class="cta-form-wrapper container">
-      <form action="handler.php" method="POST" class="cta-form">
-        <h2 class="section-title cta-form-title">хотите сотрудничать?</h2>
-        <p class="cta-form-text">
-          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
-          ответит на все интересующие вопросы и поможем даже в самых сложных
-          случаях!
-        </p>
-        <div class="input-group-wrapper">
-          <div class="input-group">
-            <input id="user-name" type="text" class="input" name="username" placeholder=" " maxlength="100" required />
-            <label class="input-group-label" for="user-name">Имя</label>
+  <div class="container">
+    <div class="bg-grey section-cta">
+      <img src="./img/cta.png" alt="cta" class="cta-image" />
+      <div class="cta-form-wrapper container">
+        <form action="handler.php" method="POST" class="cta-form">
+          <h2 class="section-title cta-form-title">хотите сотрудничать?</h2>
+          <p class="cta-form-text">
+            Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+            ответит на все интересующие вопросы и поможем даже в самых сложных
+            случаях!
+          </p>
+          <div class="input-group-wrapper">
+            <div class="input-group">
+              <input id="user-name" type="text" class="input" name="username" placeholder=" " maxlength="100"
+                required />
+              <label class="input-group-label" for="user-name">Имя</label>
+            </div>
+            <!-- /.input-group -->
+            <div class="input-group">
+              <input id="user-phone" type="text" class="input phone-mask" name="userphone" placeholder=" "
+                maxlength="30" required />
+              <label class="input-group-label" for="user-phone">Номер телефона</label>
+            </div>
+            <!-- /.input-group -->
           </div>
-          <!-- /.input-group -->
-          <div class="input-group">
-            <input id="user-phone" type="text" class="input phone-mask" name="userphone" placeholder=" " maxlength="30"
-              required />
-            <label class="input-group-label" for="user-phone">Номер телефона</label>
+          <!-- /.input-group-wrapper -->
+          <div class="cta-form-footer">
+            <button type="submit" class="button cta-form-button">
+              Отправить заявку
+            </button>
+            <div class="notify">
+              <img src="img/icons/shield.jpg" alt="shield" class="notify-icon">
+              <p class="notify-text">
+                Обращаясь к нам вы получаете не только профессиональную
+                работу, но и абсолютную конфиденциальность информации!
+              </p>
+            </div>
           </div>
-          <!-- /.input-group -->
-        </div>
-        <!-- /.input-group-wrapper -->
-        <div class="cta-form-footer">
-          <button type="submit" class="button cta-form-button">
-            Отправить заявку
-          </button>
-          <div class="notify">
-            <img src="img/icons/shield.jpg" alt="shield" class="notify-icon">
-            <p class="notify-text">
-              Обращаясь к нам вы получаете не только профессиональную
-              работу, но и абсолютную конфиденциальность информации!
-            </p>
-          </div>
-        </div>
-        <!-- /.cta-form-footer -->
-      </form>
+          <!-- /.cta-form-footer -->
+        </form>
+      </div>
+      <!-- /.cta-form-wrapper -->
     </div>
-    <!-- /.cta-form-wrapper -->
   </div>
+
 </section>
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
-      <svg class="header-logo-svg footer-logo">
+      <svg class="footer-logo">
         <use href="img/sprite.svg#logo"></use>
       </svg>
       <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
@@ -81,7 +85,7 @@
         <h2 class="footer-menu-title">Контрактное производство</h2>
         <ul class="footer-menu-list footer-menu-column-2">
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link">Автомобильная химия</a>
+            <a href="./avtohim.php" class="footer-menu-link">Автомобильная химия</a>
           </li>
           <li class="footer-menu-item">
             <a href="#" class="footer-menu-link">Бытовая химия</a>
@@ -105,7 +109,7 @@
         <h2 class="footer-menu-title">Собственные марки</h2>
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link">Автохимия AG-Tech</a>
+            <a href="./autohim-ag.php" class="footer-menu-link">Автохимия AG-Tech</a>
           </li>
           <li class="footer-menu-item">
             <a href="#" class="footer-menu-link">Автохимия AP</a>
@@ -116,13 +120,13 @@
       <div class="footer-menu-wrapper">
         <ul class="footer-menu-list">
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link footer-menu-link-bold">О компании</a>
+            <a href="./about.php" class="footer-menu-link footer-menu-link-bold">О компании</a>
           </li>
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link footer-menu-link-bold">Новости</a>
+            <a href="./404.php" class="footer-menu-link footer-menu-link-bold">Новости</a>
           </li>
           <li class="footer-menu-item">
-            <a href="#" class="footer-menu-link footer-menu-link-bold">Контакты</a>
+            <a href="./contacts.php" class="footer-menu-link footer-menu-link-bold">Контакты</a>
           </li>
         </ul>
       </div>
@@ -196,6 +200,7 @@
 </div>
 <div class="modal" id="alert-modal">
   <div class="modal-dialog">
+    <img src="./img/thanks.jpg" alt="thank you" class="modal-image" width="285" height="245">
     <h2 class="modal-title">спасибо за заявку!</h2>
     <a href="" class="modal-close" data-toggle="modal" data-target="#alert-modal">
       <img src="img/icons/close-icon.jpg" width="24" height="24" alt="close" class="close-icon">
@@ -205,6 +210,7 @@
       ответит на все интересующие вопросы и поможем даже в самых сложных
       случаях!
     </p>
+    <a href="./index.php" class="button modal-form-button">Вернуться на главную</a>
   </div>
 </div>
 <script src="js/swiper-bundle.min"></script>

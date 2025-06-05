@@ -40,14 +40,10 @@
   <!-- кнопки навигации -->
   <div class="slider-buttons">
     <div class="slider-button-prev">
-      <svg width="36" height="24">
-        <use href="img/sprite.svg#arrow-prev"></use>
-      </svg>
+      <img src="img/arrow-left-black.jpg" alt="" class="" />
     </div>
     <div class="slider-button-next">
-      <svg width="36" height="24">
-        <use href="img/sprite.svg#arrow-next"></use>
-      </svg>
+      <img src="img/arrow.jpg" alt="" class="" />
     </div>
   </div>
   <!-- /.slider-buttons -->

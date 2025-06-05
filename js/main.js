@@ -130,7 +130,7 @@ const researchSwiper = new Swiper('.research-slider', {
     770: {
       slidesPerView: 2,
     },
-    1: {
+    300: {
       slidesPerView: 1,
     },
   },

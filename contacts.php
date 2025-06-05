@@ -35,6 +35,7 @@ include_once('header-page.php'); ?>
   </div>
   <div class="contacts-content">
     <img src="img/contacts/map.jpg" alt="map" class="map-photo"/>
+    <img src="img/map-mini.jpg" alt="map-mobile" class="map-photo-mobile"/>
   </div>
 </section>
 <?php include_once('footer.php'); ?>
