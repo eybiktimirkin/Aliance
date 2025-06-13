@@ -43,7 +43,6 @@
       <!-- /.cta-form-wrapper -->
     </div>
   </div>
-
 </section>
 <footer class="footer">
   <div class="container">

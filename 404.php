@@ -146,14 +146,12 @@
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
-      <svg class="header-logo-svg footer-logo">
+      <svg class="footer-logo">
         <use href="img/sprite.svg#logo"></use>
       </svg>
-      <a href="tel:+79996861014" class="footer-phone">+7 (999) 686-10-14</a>
+      <a href="tel:+74996861014" class="footer-phone">+7 (499) 686-10-14</a>
       <div class="footer-info">
-        <svg class="phone-icon" width="24" height="24">
-          <use href="img/sprite.svg#mark"></use>
-        </svg>
+        <img src="img/icons/mark.jpg" width="24" height="24" alt="mark" class="phone-icon">
         <address class="footer-info-address">
           г. Москва, Холодильный пер. 4к1с8
         </address>
@@ -170,14 +168,10 @@
       <!-- /.footer-info -->
       <div class="footer-social">
         <a href="#" class="footer-social-link">
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="img/sprite.svg#vk"></use>
-          </svg>
+          <img src="img/icons/vk.jpg" alt="vk" class="footer-social-icon">
         </a>
         <a href="#" class="footer-social-link">
-          <svg class="footer-social-icon" width="24" height="24">
-            <use href="img/sprite.svg#inst"></use>
-          </svg>
+          <img src="img/icons/inst.jpg" alt="inst" class="footer-social-icon">
         </a>
       </div>
     </div>
