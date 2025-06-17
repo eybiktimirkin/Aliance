@@ -16,7 +16,11 @@
           определенных слоев населения, а значит, должны быть указаны как претенденты на роль ключевых факторов.
           Лишь акционеры крупнейших компаний могут быть призваны к ответу.
         </p>
-        <img src="img/blog/blog-photo.jpg" alt="" class="research-card-image" />
+        <picture class="blog-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog">
+        </picture>
       </li>
       <li class="swiper-slide research-slider-card">
         <p class="research-text">
@@ -26,7 +30,11 @@
           зависимых концептуальных решений. Предварительные выводы неутешительны: разбавленное изрядной долей
           эмпатии, рациональное мышление однозначно фиксирует необходимость стандартных подходов.
         </p>
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="research-card-image" />
+        <picture class="blog-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog">
+        </picture>
       </li>
       <li class="swiper-slide research-slider-card">
         <p class="research-text">
@@ -36,9 +44,13 @@
           определенных слоев населения, а значит, должны быть указаны как претенденты на роль ключевых факторов.
           Лишь акционеры крупнейших компаний могут быть призваны к ответу.
         </p>
-        <img src="img/blog/blog-photo.jpg" alt="" class="research-card-image" />
+        <picture class="blog-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog">
+        </picture>
       </li>
-            <li class="swiper-slide research-slider-card">
+      <li class="swiper-slide research-slider-card">
         <p class="research-text">
           С учётом сложившейся международной обстановки, синтетическое тестирование требует определения и уточнения
           анализа существующих паттернов поведения. Не следует, однако, забывать, что высокотехнологичная концепция
@@ -46,7 +58,11 @@
           зависимых концептуальных решений. Предварительные выводы неутешительны: разбавленное изрядной долей
           эмпатии, рациональное мышление однозначно фиксирует необходимость стандартных подходов.
         </p>
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="research-card-image" />
+        <picture class="blog-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog">
+        </picture>
       </li>
     </ol>
   </div>

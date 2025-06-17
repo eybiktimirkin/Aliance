@@ -206,7 +206,11 @@
   <?php $block_title = "собственные торговые марки";
   include_once("./template-parts/trademarks-block.php") ?>
   <section class="section founder">
-    <img src="img/founder.jpg" alt="founder" class="founder-photo" />
+    <picture class="founder-photo">
+      <source type="image/webp" srcset="img/founder.webp">
+      <source type="image/jpeg" srcset="img/founder.jpg">
+      <img src="img/founder.jpg" alt="founder">
+    </picture>
     <div class="container">
       <div class="founder-content-wrapper">
         <div class="founder-content">
@@ -247,7 +251,11 @@
         <div class="swiper-wrapper">
           <!-- Slides -->
           <a href="#" class="swiper-slide blog-card">
-            <img src="img/blog/blog-photo.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-photo.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+              <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+            </picture>
             <h3 class="blog-card-title">
               Современная методология разработки одухотворила всех причастных
             </h3>
@@ -258,7 +266,11 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+              <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+              <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog-photo">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>
@@ -269,7 +281,11 @@
             </p>
           </a>
           <a href="#" class="swiper-slide blog-card">
-            <img src="img/blog/blog-photo.jpg" alt="" class="blog-card-image" />
+            <picture class="blog-card-image">
+              <source type="image/webp" srcset="img/blog/blog-photo.webp">
+              <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+              <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+            </picture>
             <h3 class="blog-card-title">
               Сложно сказать, почему жизнь прекрасна
             </h3>

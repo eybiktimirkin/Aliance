@@ -7,7 +7,11 @@ include_once('header-page.php'); ?>
   <div class="container">
     <div class="blog-wrapper">
       <a href="blog-post.php" class="blog-page-card">
-        <img src="img/blog/blog-photo.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Современная методология разработки одухотворила всех причастных
         </h3>
@@ -18,7 +22,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="#" class="blog-page-card">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Сложно сказать, почему жизнь прекрасна
         </h3>
@@ -29,7 +37,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="#" class="blog-page-card">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Сложно сказать, почему жизнь прекрасна
         </h3>
@@ -40,7 +52,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="blog-post.php" class="blog-page-card">
-        <img src="img/blog/blog-photo.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Современная методология разработки одухотворила всех причастных
         </h3>
@@ -51,7 +67,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="blog-post.php" class="blog-page-card">
-        <img src="img/blog/blog-photo.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Современная методология разработки одухотворила всех причастных
         </h3>
@@ -62,7 +82,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="#" class="blog-page-card">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Сложно сказать, почему жизнь прекрасна
         </h3>
@@ -73,7 +97,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="#" class="blog-page-card">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Сложно сказать, почему жизнь прекрасна
         </h3>
@@ -84,7 +112,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="blog-post.php" class="blog-page-card">
-        <img src="img/blog/blog-photo.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Современная методология разработки одухотворила всех причастных
         </h3>
@@ -95,7 +127,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="blog-post.php" class="blog-page-card">
-        <img src="img/blog/blog-photo.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
+          <img src="img/blog/blog-photo.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Современная методология разработки одухотворила всех причастных
         </h3>
@@ -106,7 +142,11 @@ include_once('header-page.php'); ?>
         </p>
       </a>
       <a href="#" class="blog-page-card">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="" class="blog-page-card-image" />
+        <picture class="blog-page-card-image">
+          <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
+          <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
+          <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog-photo">
+        </picture>
         <h3 class="blog-page-card-title">
           Сложно сказать, почему жизнь прекрасна
         </h3>
@@ -129,4 +169,4 @@ include_once('header-page.php'); ?>
   </div>
 </section>
 
-<?php include_once('footer.php');?>
+<?php include_once('footer.php'); ?>

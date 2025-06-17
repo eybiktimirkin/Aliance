@@ -8,7 +8,11 @@
     ?>
     <div class="trademark-cards">
       <a href="./autohim-ag.php" class="trademark-card">
-        <img src="./img/icons/icon-AGTECH.jpg" alt="agtech" class="trademark-card-logo"/>
+        <picture class="trademark-card-logo">
+          <source type="image/webp" srcset="img/icons/icon-AGTECH.webp">
+          <source type="image/jpeg" srcset="img/icons/icon-AGTECH.jpg">
+          <img src="img/icons/icon-AGTECH.jpg" alt="agtech">
+        </picture>
         <h3 class="trademark-card-title">Автохимия AG-Tech</h3>
         <p class="trademark-card-text">
           Для современного мира разбавленное изрядной долей эмпатии,
@@ -17,7 +21,11 @@
         </p>
       </a>
       <div class="trademark-card">
-        <img src="./img/icons/icon-AP.jpg" alt="agtech" class="trademark-card-logo"/>
+        <picture class="trademark-card-logo">
+          <source type="image/webp" srcset="img/icons/icon-AP.webp">
+          <source type="image/jpeg" srcset="img/icons/icon-AP.jpg">
+          <img src="img/icons/icon-AP.jpg" alt="agtech">
+        </picture>
         <h3 class="trademark-card-title">Автохимия AP</h3>
         <p class="trademark-card-text">
           Для современного мира разбавленное изрядной долей эмпатии,

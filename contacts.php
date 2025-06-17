@@ -34,8 +34,16 @@ include_once('header-page.php'); ?>
     </div>
   </div>
   <div class="contacts-content">
-    <img src="img/contacts/map.jpg" alt="map" class="map-photo"/>
-    <img src="img/map-mini.jpg" alt="map-mobile" class="map-photo-mobile"/>
+    <picture class="map-photo">
+      <source type="image/webp" srcset="img/contacts/map.webp">
+      <source type="image/jpeg" srcset="img/contacts/map.jpg">
+      <img src="img/contacts/map.jpg" alt="map">
+    </picture>
+    <picture class="map-photo-mobile">
+      <source type="image/webp" srcset="img/map-mini.webp">
+      <source type="image/jpeg" srcset="img/map-mini.jpg">
+      <img src="img/map-mini.jpg" alt="map">
+    </picture>
   </div>
 </section>
 <?php include_once('footer.php'); ?>
