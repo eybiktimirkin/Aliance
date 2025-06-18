@@ -1,3 +1,5 @@
+@import url('normalize.css');
+@import url('swiper-bundle.min.css');
 * {
 box-sizing: border-box;
 }
@@ -85,8 +87,12 @@ body {
   padding-top: 94px;
 }
 
-.header-image {
+.no-webp .header-image {
   background-image: url(../img/header-image.jpeg);
+}
+
+.header-image {
+  background-image: url(../img/header-image.webp);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
