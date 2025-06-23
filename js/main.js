@@ -119,19 +119,20 @@ const stepsBlog = new Swiper(".blog-slider", {
 const researchSwiper = new Swiper('.research-slider', {
   speed: 400,
   loop: false,
-  centeredSlides: true,
-  initialSlide: 2,
+  centeredSlides: false, // лучше отключить, если loop: false
+  initialSlide: 0,
   slidesPerView: 1,
+  spaceBetween: 20,
   navigation: {
     nextEl: ".research-button-next",
     prevEl: ".research-button-prev",
   },
   breakpoints: {
-    770: {
-      slidesPerView: 2,
-    },
     300: {
       slidesPerView: 1,
+    },
+    770: {
+      slidesPerView: 2,
     },
   },
 });

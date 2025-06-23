@@ -74,9 +74,9 @@
           <img src="img/icons/arrow-left.jpg" alt="arrow-left">
         </div>
         <div class="research-button-next primary-button-next">
-          <svg width="36" height="24">
-            <use href="img/sprite.svg#arrow-next"></use>
-          </svg>
+          <div class="research-button-prev primary-button-prev">
+            <img src="img/icons/arrow-right.jpg" alt="arrow-left">
+          </div>
         </div>
       </div>
     </div>
