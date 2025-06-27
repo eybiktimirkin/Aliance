@@ -3,13 +3,13 @@ $page_title = "О компании";
 $header_style = "page-header-bg-grey";
 include_once('header-page.php'); ?>
 <section class="section section-experts">
-  <picture class="experts-photo">
-    <source type="image/webp" srcset="img/About/experts.webp">
-    <source type="image/jpeg" srcset="img/About/experts.jpg">
-    <img src="img/About/experts.jpg" alt="experts">
-  </picture>
   <div class="container">
     <div class="experts-content-wrapper">
+      <picture class="experts-photo">
+        <source type="image/webp" srcset="img/About/experts.webp">
+        <source type="image/jpeg" srcset="img/About/experts.jpg">
+        <img src="img/About/experts.jpg" alt="experts">
+      </picture>
       <div class="experts-content">
         <div class="seporator"></div>
         <h2 class="section-title experts-title">Мы - эксперты в области производства химии</h2>
@@ -114,7 +114,7 @@ include_once('header-page.php'); ?>
     <div class="founder-content-wrapper">
       <div class="founder-content">
         <div class="seporator"></div>
-        <h2 class="section-title">отношение к делу и к клиентам</h2>
+        <h2 class="section-title founder-title">отношение к делу и к клиентам</h2>
         <p class="founder-text">
           Кстати, интерактивные прототипы описаны максимально подробно.
           Повседневная практика показывает, что укрепление и развитие
@@ -124,7 +124,10 @@ include_once('header-page.php'); ?>
           политической культуры, будут подвергнуты целой серии независимых
           исследований. С учётом сложившейся международной обстановки,
           синтетическое тестирование выявляет срочную потребность системы
-          массового участия. А ещё действия представителей оппозиции,
+          массового участия. 
+                  <br />
+                  <br />
+          А ещё действия представителей оппозиции,
           превозмогая сложившуюся непростую экономическую ситуацию, в равной
           степени предоставлены сами себе. Не следует, однако, забывать, что
           выбранный нами инновационный путь в значительной степени
