@@ -5,10 +5,10 @@ include_once('header-page.php'); ?>
 <section class="section section-experts">
   <div class="container">
     <div class="experts-content-wrapper">
-      <picture class="experts-photo">
+      <picture>
         <source type="image/webp" srcset="img/About/experts.webp">
         <source type="image/jpeg" srcset="img/About/experts.jpg">
-        <img src="img/About/experts.jpg" alt="experts">
+        <img class="experts-photo" src="img/About/experts.jpg" alt="experts">
       </picture>
       <div class="experts-content">
         <div class="seporator"></div>
@@ -48,67 +48,67 @@ include_once('header-page.php'); ?>
       </p>
       <ul class="production-list">
         <li class="production-list-item">
-          <picture class="icon production-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/car.webp">
             <source type="image/jpeg" srcset="img/icons/car.jpg">
-            <img src="img/icons/car.jpg" alt="experts">
+            <img class="icon production-list-icon" src="img/icons/car.jpg" alt="experts">
           </picture>
           Автомобильная химия
         </li>
         <li class="production-list-item">
-          <picture class="icon production-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/home.webp">
             <source type="image/jpeg" srcset="img/icons/home.jpg">
-            <img src="img/icons/home.jpg" alt="home">
+            <img class="icon production-list-icon" src="img/icons/home.jpg" alt="home">
           </picture>
           Бытовая химия
         </li>
         <li class="production-list-item">
-          <picture class="icon production-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/dis.webp">
             <source type="image/jpeg" srcset="img/icons/dis.jpg">
-            <img src="img/icons/dis.jpg" alt="dis">
+            <img class="icon production-list-icon" src="img/icons/dis.jpg" alt="dis">
           </picture>
           Дезинфицирующие средства
         </li>
         <li class="production-list-item">
-          <picture class="icon production-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/aerozol.webp">
             <source type="image/jpeg" srcset="img/icons/aerozol.jpg">
-            <img src="img/icons/aerozol.jpg" alt="aerozol">
+            <img class="icon production-list-icon" src="img/icons/aerozol.jpg" alt="aerozol">
           </picture>
           Пищевые аэрозоли
         </li>
         <li class="production-list-item">
-          <picture class="icon production-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/cosmetic.webp">
             <source type="image/jpeg" srcset="img/icons/cosmetic.jpg">
-            <img src="img/icons/cosmetic.jpg" alt="cosmetic">
+            <img class="icon production-list-icon" src="img/icons/cosmetic.jpg" alt="cosmetic">
           </picture>
           Косметическая продукция
         </li>
         <li class="production-list-item">
-          <picture class="icon production-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/brush.webp">
             <source type="image/jpeg" srcset="img/icons/brush.jpg">
-            <img src="img/icons/brush.jpg" alt="brush">
+            <img class="icon production-list-icon" src="img/icons/brush.jpg" alt="brush">
           </picture>
           Краски аэрозольные
         </li>
       </ul>
-      <picture class="production-image">
+      <picture>
         <source type="image/webp" srcset="img/About/our-production.webp">
         <source type="image/jpeg" srcset="img/About/our-production.jpg">
-        <img src="img/About/our-production.jpg" alt="our-production">
+        <img class="production-image" src="img/About/our-production.jpg" alt="our-production">
       </picture>
     </div>
   </div>
 </section>
 <section class="section founder">
-  <picture class="founder-photo">
+  <picture>
     <source type="image/webp" srcset="img/founder.webp">
     <source type="image/jpeg" srcset="img/founder.jpg">
-    <img src="img/founder.jpg" alt="founder">
+    <img class="founder-photo" src="img/founder.jpg" alt="founder">
   </picture>
   <div class="container">
     <div class="founder-content-wrapper">

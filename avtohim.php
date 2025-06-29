@@ -6,10 +6,10 @@ include_once('header-page.php'); ?>
 <section class="section avtohim-section">
   <div class="container">
     <div class="avtohim-content-wrapper">
-      <picture class="avtohim-photo">
+      <picture>
         <source type="image/webp" srcset="img/avtohim/avtohim-prod.webp">
         <source type="image/jpeg" srcset="img/avtohim/avtohim-prod.jpg">
-        <img src="img/avtohim/avtohim-prod.jpg" alt="autohim">
+        <img class="avtohim-photo" src="img/avtohim/avtohim-prod.jpg" alt="autohim">
       </picture>
       <div class="avtohim-content">
         <div class="seporator"></div>
@@ -49,77 +49,77 @@ include_once('header-page.php'); ?>
       </p>
       <ul class="avtohim-prod-list">
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/him.webp">
             <source type="image/jpeg" srcset="img/icons/him.jpg">
-            <img src="img/icons/him.jpg" alt="him">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/him.jpg" alt="him">
           </picture>
           Полное описание товаров
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/car.webp">
             <source type="image/jpeg" srcset="img/icons/car.jpg">
-            <img src="img/icons/car.jpg" alt="car">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/car.jpg" alt="car">
           </picture>
           Актуальные цены
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/him.webp">
             <source type="image/jpeg" srcset="img/icons/him.jpg">
-            <img src="img/icons/him.jpg" alt="him">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/him.jpg" alt="him">
           </picture>
           Полное описание товаров
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/car.webp">
             <source type="image/jpeg" srcset="img/icons/car.jpg">
-            <img src="img/icons/car.jpg" alt="car">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/car.jpg" alt="car">
           </picture>
           Актуальные цены
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/him.webp">
             <source type="image/jpeg" srcset="img/icons/him.jpg">
-            <img src="img/icons/him.jpg" alt="him">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/him.jpg" alt="him">
           </picture>
           <img src="./img/icons/brush.jpg" alt="brush" class="icon avtohim-prod-list-icon">
           Лаки и краски
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/him.webp">
             <source type="image/jpeg" srcset="img/icons/him.jpg">
-            <img src="img/icons/him.jpg" alt="him">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/him.jpg" alt="him">
           </picture>
           Химические производства
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/brush.webp">
             <source type="image/jpeg" srcset="img/icons/brush.jpg">
-            <img src="img/icons/brush.jpg" alt="brush">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/brush.jpg" alt="brush">
           </picture>
           Лаки и краски
         </li>
         <li class="avtohim-prod-item">
-          <picture class="icon avtohim-prod-list-icon">
+          <picture>
             <source type="image/webp" srcset="img/icons/him.webp">
             <source type="image/jpeg" srcset="img/icons/him.jpg">
-            <img src="img/icons/him.jpg" alt="him">
+            <img class="icon avtohim-prod-list-icon" src="img/icons/him.jpg" alt="him">
           </picture>
           Химические производства
         </li>
       </ul>
     </div>
   </div>
-  <picture class="avtohim-prod-photo">
+  <picture>
     <source type="image/webp" srcset="img/avtohim/avtohim-production.webp">
     <source type="image/jpeg" srcset="img/avtohim/avtohim-production.jpg">
-    <img src="img/avtohim/avtohim-production.jpg" alt="avtohim-production">
+    <img class="avtohim-prod-photo" src="img/avtohim/avtohim-production.jpg" alt="avtohim-production">
   </picture>
 </section>
 <section class="section avtohim-types">

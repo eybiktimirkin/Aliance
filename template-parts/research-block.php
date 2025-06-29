@@ -12,7 +12,7 @@
         компаний могут быть призваны к ответу.
       </p>
     </div>
-    <div class="research-block">
+    <div class="research-block research-block-2">
       <p class="research-text">
         С учётом сложившейся международной обстановки, синтетическое тестирование требует определения и уточнения
         анализа существующих паттернов поведения. Не следует, однако, забывать, что высокотехнологичная концепция
@@ -28,31 +28,31 @@
   <div class="swiper-wrapper research-slider-cards">
     <!-- Slides -->
     <a class="swiper-slide research-slider-card">
-      <picture class="blog-card-image">
+      <picture>
         <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
         <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog">
+        <img class="blog-card-image" src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog">
       </picture>
     </a>
     <a class="swiper-slide research-slider-card">
-      <picture class="blog-card-image">
+      <picture>
         <source type="image/webp" srcset="img/blog/blog-photo.webp">
         <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
-        <img src="img/blog/blog-photo.jpg" alt="blog">
+        <img class="blog-card-image" src="img/blog/blog-photo.jpg" alt="blog">
       </picture>
     </a>
     <a class="swiper-slide research-slider-card">
-      <picture class="blog-card-image">
+      <picture>
         <source type="image/webp" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.webp">
         <source type="image/jpeg" srcset="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg">
-        <img src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog">
+        <img class="blog-card-image" src="img/blog/pexels-tima-miroshnichenko-9574410 2.jpg" alt="blog">
       </picture>
     </a>
     <a class="swiper-slide research-slider-card">
-      <picture class="blog-card-image">
+      <picture>
         <source type="image/webp" srcset="img/blog/blog-photo.webp">
         <source type="image/jpeg" srcset="img/blog/blog-photo.jpg">
-        <img src="img/blog/blog-photo.jpg" alt="blog">
+        <img class="blog-card-image" src="img/blog/blog-photo.jpg" alt="blog">
       </picture>
     </a>
   </div>

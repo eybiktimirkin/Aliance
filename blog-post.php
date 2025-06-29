@@ -55,10 +55,10 @@ include_once('header-page.php'); ?>
           организации, в особенности же постоянный количественный рост и сфера нашей активности обеспечивает широкому
           кругу (специалистов) участие в формировании форм развития.
         </p>
-        <picture class="blog-post-image">
+        <picture>
           <source type="image/webp" srcset="img/blog-post/laborotory.webp">
           <source type="image/jpeg" srcset="img/blog-post/laborotory.jpg">
-          <img src="img/blog-post/laborotory.jpg" alt="laboratory">
+          <img class="blog-post-image" src="img/blog-post/laborotory.jpg" alt="laboratory">
         </picture>
         <p class="section-small">
           Равным образом консультация с широким активом:

@@ -6,10 +6,10 @@ include_once('header-page.php'); ?>
 <section class="section autohim-ag-section">
   <div class="container">
     <div class="autohim-ag-content-wrapper">
-      <picture class="autohim-photo-ag">
+      <picture>
         <source type="image/webp" srcset="img/avtohim/autohim-ag.webp">
         <source type="image/jpeg" srcset="img/avtohim/autohim-ag.jpg">
-        <img src="img/avtohim/autohim-ag.jpg" alt="autohim-ag">
+        <img class="autohim-photo-ag" src="img/avtohim/autohim-ag.jpg" alt="autohim-ag">
       </picture>
       <div class="autohim-ag-content">
         <div class="seporator"></div>
@@ -37,10 +37,10 @@ include_once('header-page.php'); ?>
 </section>
 <section class="section section-catalog">
   <div class="bg-grey catalog-wrapper">
-    <picture class="catalog-image">
+    <picture>
       <source type="image/webp" srcset="img/avtohim/book.webp">
       <source type="image/jpeg" srcset="img/avtohim/book.png">
-      <img src="img/avtohim/book.png" alt="book">
+      <img class="catalog-image" src="img/avtohim/book.png" alt="book">
     </picture>
     <div class="catalog-form container">
       <div class="seporator"></div>
